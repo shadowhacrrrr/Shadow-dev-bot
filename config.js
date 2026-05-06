@@ -172,7 +172,7 @@ const config = {
     textScramble: "textScramble",
     magneticButton: "magneticButton",
     liquidEffect: "liquidEffect",
-    3dTilt: "3dTilt",
+    "3dTilt": "3dTilt",
     waveAnimation: "waveAnimation",
     floatingElements: "floatingElements",
     matrixRain: "matrixRain",
