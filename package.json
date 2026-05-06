@@ -1,0 +1,38 @@
+{
+  "name": "shadow-dev-bot",
+  "version": "1.0.0",
+  "description": "Shadow Dev Bot - Premium Website Builder & Deployer Telegram Bot with 300+ Templates",
+  "main": "bot/index.js",
+  "scripts": {
+    "start": "node bot/index.js",
+    "dev": "nodemon bot/index.js",
+    "deploy": "node bot/deploy.js",
+    "admin": "node admin-panel/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram-bot",
+    "website-builder",
+    "shadow-dev",
+    "templates",
+    "deployer"
+  ],
+  "author": "Shadow Dev",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1",
+    "archiver": "^6.0.1",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
